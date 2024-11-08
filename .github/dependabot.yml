@@ -6,7 +6,17 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/apps/web/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "1chooo"
+    reviewers:
+      - "1chooo"
+    open-pull-requests-limit: 20
+  
+  - package-ecosystem: "npm"
+    directory: "/apps/docs/"
     schedule:
       interval: "weekly"
     assignees:

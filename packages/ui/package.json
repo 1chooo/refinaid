@@ -14,8 +14,8 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
-    "@turbo/gen": "^1.12.4",
-    "@types/node": "^20.11.24",
+    "@turbo/gen": "^2.2.3",
+    "@types/node": "^22.8.6",
     "@types/eslint": "^8.56.5",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",

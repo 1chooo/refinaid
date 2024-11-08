@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://linkscape.app",
+  siteUrl: process.env.SITE_URL || "https://refinaid.vercel.app",
   generateRobotsTxt: true, // (optional)
   // ...other options
 };
