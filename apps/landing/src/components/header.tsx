@@ -96,9 +96,9 @@ export default function Header() {
             <div className="hidden sm:ml-6 sm:flex items-center justify-center">
               <div className="flex space-x-4">
                 {navigation.map((item, index) => (
-                  <React.Fragment key={index}>
+                  <React.Fragment>
                     <Link
-                      key={item.name}
+                      key={index}
                       href={item.href}
                       className={`text-gh-gray-7 ${pathname !== item.href
                         ? "hover:bg-blue-600/20"
