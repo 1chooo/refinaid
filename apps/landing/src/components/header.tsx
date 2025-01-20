@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const navigation = [
+const navigations = [
   { name: "About", href: "/about", current: false },
   { name: "Team", href: "/team", current: false },
   { name: "Projects", href: "/projects", current: false },
@@ -95,35 +95,33 @@ export default function Header() {
             </Link>
             <div className="hidden sm:ml-6 sm:flex items-center justify-center">
               <div className="flex space-x-4">
-                {navigation.map((item, index) => (
-                  <React.Fragment>
-                    <Link
-                      key={index}
-                      href={item.href}
-                      className={`text-gh-gray-7 ${pathname !== item.href
-                        ? "hover:bg-blue-600/20"
-                        : "hover:text-gh-text-primary"
-                        } rounded-md px-2.5 py-2 text-sm font-medium transition-all`}
-                    >
-                      <p className={"relative px-0.5"}>
-                        {item.name}
-                        {pathname === item.href && (
-                          <motion.span
-                            layoutId={"nav-underline"}
-                            initial={{ opacity: 1 }}
-                            animate={{ opacity: 1 }}
-                            transition={{
-                              type: "spring",
-                              stiffness: 300,
-                              damping: 25,
-                              duration: 0.5,
-                            }}
-                            className="absolute left-0 -bottom-1.5 w-full h-[2px] bg-gh-text-secondary"
-                          />
-                        )}
-                      </p>
-                    </Link>
-                  </React.Fragment>
+                {navigations.map((item, index) => (
+                  <Link
+                    key={index}
+                    href={item.href}
+                    className={`text-gh-gray-7 ${pathname !== item.href
+                      ? "hover:bg-blue-600/20"
+                      : "hover:text-gh-text-primary"
+                      } rounded-md px-2.5 py-2 text-sm font-medium transition-all`}
+                  >
+                    <p className={"relative px-0.5"}>
+                      {item.name}
+                      {pathname === item.href && (
+                        <motion.span
+                          layoutId={"nav-underline"}
+                          initial={{ opacity: 1 }}
+                          animate={{ opacity: 1 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 300,
+                            damping: 25,
+                            duration: 0.5,
+                          }}
+                          className="absolute left-0 -bottom-1.5 w-full h-[2px] bg-gh-text-secondary"
+                        />
+                      )}
+                    </p>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -145,7 +143,7 @@ export default function Header() {
       {open && (
         <div className="sm:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2 bg-white shadow-lg"> {/* Mobile menu container */}
-            {navigation.map((item) => (
+            {navigations.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
