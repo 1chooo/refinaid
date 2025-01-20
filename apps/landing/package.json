@@ -1,6 +1,6 @@
 {
-  "name": "refinaid-site",
-  "version": "0.2.2",
+  "name": "refinaid-landing",
+  "version": "0.3.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
