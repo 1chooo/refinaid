@@ -26,7 +26,7 @@
     "lucide-react": "^0.263.1",
     "next": "15.0.2",
     "next-sitemap": "^4.1.8",
-    "postcss": "8.4.47",
+    "postcss": "8.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-feather": "^2.0.10",
