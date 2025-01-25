@@ -11,7 +11,7 @@ const Footer = () => {
     >
       <div className="flex flex-col items-center gap-4 lg:ml-32 lg:items-start">
         <Image
-          className="flex items-center gap-2 text-xl font-bold"
+          className="flex items-center gap-2 text-xl font-bold dark:invert"
           src="/logo.png"
           alt="Logo of Refinaid"
           quality={100}
