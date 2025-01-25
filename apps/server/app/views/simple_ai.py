@@ -65,7 +65,6 @@ def simple_ai() -> gr.Blocks:
                         info="Selected a Method",
                         interactive=True,
                     )
-
                     training = gr.Slider(
                         label="Training Set",
                         value=70,
@@ -92,10 +91,9 @@ def simple_ai() -> gr.Blocks:
                     )
 
                 with gr.Column():
-                    with gr.Row():
-                        preview = gr.Plot(
-                            label="Preview Data",
-                        )
+                    preview = gr.Plot(
+                        label="Preview Data",
+                    )
                     with gr.Row():
                         gr.Dropdown(
                             ["cat", "dog", "bird"],
@@ -109,20 +107,19 @@ def simple_ai() -> gr.Blocks:
                             info="Select a parameter",
                             interactive=True,
                         )
-                    with gr.Row():
-                        gr.Examples(
-                            examples=examples,
-                            inputs=[
-                                dataset,
-                                parameters,
-                                miss_value_method,
-                                data_scale_scaling,
-                                training,
-                                validation,
-                                testing,
-                            ],
-                            label="Data Preprocessing Example",
-                        )
+                    gr.Examples(
+                        examples=examples,
+                        inputs=[
+                            dataset,
+                            parameters,
+                            miss_value_method,
+                            data_scale_scaling,
+                            training,
+                            validation,
+                            testing,
+                        ],
+                        label="Data Preprocessing Example",
+                    )
 
             gr.Button(
                 value="Submit Data Preprocessing Results",
