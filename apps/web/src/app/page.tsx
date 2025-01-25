@@ -3,8 +3,9 @@
 import { Input } from "@/components/ui/input"
 import {
   CloudRainWind,
-  Ship,
+  Library,
   Bot,
+  ChartSpline,
 } from "lucide-react"
 import type { LucideIcon } from "lucide-react"
 import React from "react"
@@ -33,7 +34,7 @@ const playgrounds = [
         link: "/#get-started",
         keywords: ["AI", "Machine Learning", "Model", "Predict"],
         color: "#fa5252",
-        icon: Ship,
+        icon: Library,
       },
       {
         label: "Plum",
@@ -47,7 +48,7 @@ const playgrounds = [
         link: "/#get-started",
         keywords: ["AI", "Machine Learning", "Model", "Predict"],
         color: "#fd7e14",
-        icon: CloudRainWind,
+        icon: ChartSpline,
       },
     ]
   },
