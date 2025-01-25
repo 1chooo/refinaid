@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaTwitter, FaBook } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
@@ -130,11 +130,8 @@ export default function Header() {
             <Link href={"https://github.com/1chooo/refinaid"}>
               <FaGithub className="mr-4 h-6 w-6 text-gh-text-primary hover:text-gh-text-secondary transition-colors" />
             </Link>
-            <Link href={"https://discord.gg/WDdvabyKaH"}>
-              <FaDiscord className="mr-4 h-6 w-6 text-gh-text-primary hover:text-gh-text-secondary transition-colors" />
-            </Link>
-            <Link href={"https://twitter.com/RealLinkScape"}>
-              <FaTwitter className="mr-4 h-6 w-6 text-gh-text-primary hover:text-gh-text-secondary transition-colors" />
+            <Link href={"https://refinaid-docs.vercel.app/"}>
+              <FaBook className="mr-4 h-6 w-6 text-gh-text-primary hover:text-gh-text-secondary transition-colors" />
             </Link>
           </div>
         </div>

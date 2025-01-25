@@ -64,7 +64,7 @@ export default function HomeButtons() {
           },
         }}
       >
-        <Link href={"https://refinaid-docs.vercel.app/"}>
+        <Link href={"https://refinaid-web.vercel.app/"}>
           <button className="flex items-center justify-between rounded-xl bg-gh-bg px-4 py-3 gh-border text-gh-text-primary hover:bg-gradient-to-br hover:from-red-500/80 hover:to-pink-600/80 hover:text-white transition-all shadow-sm active:scale-95">
             <div className="font-semibold">Get Started</div>
             <ArrowUpRightIcon className="ml-2 h-5 w-5" />
