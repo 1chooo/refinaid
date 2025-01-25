@@ -82,8 +82,8 @@ importers:
         specifier: ^11.11.11
         version: 11.18.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       lucide:
-        specifier: ^0.473.0
-        version: 0.473.0
+        specifier: ^0.474.0
+        version: 0.474.0
       lucide-react:
         specifier: ^0.474.0
         version: 0.474.0(react@18.2.0)
@@ -3531,8 +3531,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  lucide@0.473.0:
-    resolution: {integrity: sha512-UIUNzfoXpYQQKiQO1M0bOOwv1BJt8EYSSFJt2HsVv39nd97lvA5H80Z+pmmeiW0cheUmWNpvh5w4JI0eZypd4Q==}
+  lucide@0.474.0:
+    resolution: {integrity: sha512-2rfORNh9fzhCUKu0ciE48ogR1Zg7hleABLO5MBF06vOb4esTtE8FbfQJiC+wveiNFoeojWKz6zXheUToRR5uIg==}
 
   make-error@1.3.6:
     resolution: {integrity: sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==}
@@ -9146,7 +9146,7 @@ snapshots:
     dependencies:
       react: 19.0.0
 
-  lucide@0.473.0: {}
+  lucide@0.474.0: {}
 
   make-error@1.3.6: {}
 
