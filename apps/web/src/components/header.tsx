@@ -15,11 +15,13 @@ const Header = () => {
       <div className='mx-auto flex h-[60px] max-w-4xl items-center justify-between px-8'>
         <Link href='/' aria-label='Home' title='Home'>
           <Image
-            src="https://www.1chooo.com/favicon.ico"
-            alt="Profile"
-            className="w-10 h-10 rounded-full object-cover"
-            width={40}
-            height={40}
+            className="rounded-full dark:invert mt-2"
+            src="/logo.png"
+            alt="Logo of Refinaid"
+            quality={100}
+            width={140}
+            height={140}
+            draggable={false}
           />
         </Link>
         <div className="flex flex-1 items-center justify-end">

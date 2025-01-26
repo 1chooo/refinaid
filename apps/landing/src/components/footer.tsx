@@ -1,103 +1,98 @@
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import { Github, Mail } from 'lucide-react'
+import Link from 'next/link'
 
-const navigation = [
-  { name: "About", href: "/about" },
-  { name: "Team", href: "/team" },
-  { name: "Projects", href: "/projects" },
-];
+import Image from 'next/image'
 
-const social = [
-  {
-    name: "GitHub",
-    href: "https://github.com/refinaid",
-  },
-  {
-    name: "Twitter",
-    href: "https://twitter.com/RealLinkScape",
-  },
-  {
-    name: "Discord",
-    href: "https://discord.gg/WDdvabyKaH",
-  },
-];
-
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer className="bg-gh-bg text-center text-black border-t border-gh-border py-12 px-4 sm:px-12 md:px-32">
-      <section className="flex flex-col gap-6 sm:gap-0 sm:grid sm:grid-cols-12">
-        <div className={"px-6 flex flex-col items-start sm:col-span-8"}>
-          <Image
-            src={
-              "/logo.png"
-            }
-            alt={"Refinaid logo"}
-            width={648}
-            height={2194}
-            className={"w-56"}
-          />
-          <div className="text-base text-left text-gh-text-secondary  mt-6">
-            © 2024 Refinaid. All rights reserved.{" "}
-            <span className="inline">
-              Deployed on
-              <Link
-                href={
-                  "https://vercel.com/?utm_source=linkscape&utm_campaign=oss"
-                }
-              >
-                <Image
-                  src={"https://files.ohevan.com/tmp/Vercel_logo_black.svg"}
-                  alt={"Vercel logo"}
-                  width={158}
-                  height={48}
-                  className={"inline-block ml-2 w-20 "}
-                />
-              </Link>
-            </span>
-          </div>
-        </div>
-
-        <div className="hidden sm:flex flex-col justify-center items-start sm:col-start-9 md:col-start-10 px-6 sm:px-0">
-          <h3 className="text-sm font-semibold text-gh-text-secondary">
-            Contacts
-          </h3>
-          <div
-            className={
-              "flex flex-col mt-1 sm:mt-3 gap-0 sm:gap-0.5 items-start "
-            }
+    <div
+      className="flex w-full flex-col items-center justify-between gap-10 border-t dark:border-[#ffffff20] py-20 lg:flex-row border-[#00000020]"
+    >
+      <div className="flex flex-col items-center gap-4 lg:ml-32 lg:items-start">
+        <Image
+          className="flex items-center gap-2 text-xl font-bold dark:invert"
+          src="/logo.png"
+          alt="Logo of Refinaid"
+          quality={100}
+          width={120}
+          height={120}
+          draggable={false}
+        />
+        <span className="text-xs text-[#00000070] dark:text-[#ffffff70]">
+          Copyright © {new Date().getFullYear()} 1chooo
+        </span>
+        <div className="flex items-center justify-center gap-3">
+          <Link
+            href="https://github.com/1chooo"
+            className="cursor-pointer text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+            target='_blank'
+            rel='noreferrer noopener'
+            aria-label='GitHub'
           >
-            {social.map((item) => (
-              <Link
-                href={item.href}
-                key={item.name}
-                className={"font-semibold text-base hover:underline"}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div className="hidden sm:flex flex-col justify-center items-start sm:col-start-11  md:col-start-12 px-6 sm:px-0">
-          <h3 className="text-sm font-semibold text-gh-text-secondary">
-            Navigation
-          </h3>
-          <div
-            className={
-              "flex flex-col mt-1 sm:mt-3 gap-0 sm:gap-0.5 items-start "
-            }
+            <Github />
+          </Link>
+          <Link
+            href="mailto:hugo970217@gmail.com"
+            className="ml-1 cursor-pointer text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+            target='_blank'
+            rel='noreferrer noopener'
+            aria-label="Mail"
           >
-            {navigation.map((item) => (
-              <Link
-                href={item.href}
-                key={item.name}
-                className={"font-semibold text-base hover:underline"}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
+            <Mail />
+          </Link>
         </div>
-      </section>
-    </footer>
-  );
+      </div>
+      <div className="grid grid-cols-2 gap-20 sm:grid-cols-3 lg:mr-64">
+        <div className="flex flex-col gap-2">
+          <div className="font-medium">COMMUNITY</div>
+          <Link
+            href="/#"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white">Blog</Link>
+          <Link
+            href="https://github.com/1chooo/refinaid/issues"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+            target='_blank'
+            rel='noreferrer noopener'
+            aria-label="Feedback"
+          >Feedback</Link>
+          <Link
+            href="https://refinaid-docs.vercel.app/"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+            target='_blank'
+            rel='noreferrer noopener'
+            aria-label="Feedback"
+          >Docs</Link>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="font-medium">PRODUCT</div>
+          <Link
+            href="/#get-started"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+          >Features</Link>
+          <Link
+            href="/#"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+          >Mechanism</Link>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="font-medium">COMPANY</div>
+          <Link
+            href="/#"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+          >Privacy</Link>
+          <Link
+            href="/#"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+          >Terms</Link>
+          <Link
+            href="https://github.com/1chooo/refinaid/blob/main/LICENSE"
+            className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
+          >License</Link>
+        </div>
+      </div>
+    </div>
+  )
 }
+
+export default Footer

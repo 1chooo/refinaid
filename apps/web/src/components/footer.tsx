@@ -10,18 +10,17 @@ const Footer = () => {
       className="flex w-full flex-col items-center justify-between gap-10 border-t dark:border-[#ffffff20] py-20 lg:flex-row border-[#00000020]"
     >
       <div className="flex flex-col items-center gap-4 lg:ml-32 lg:items-start">
-        <div className="flex items-center gap-2 text-xl font-bold">
-          <Image
-            src="https://www.1chooo.com/favicon.ico"
-            alt="Logo of 1chooo"
-            quality={100}
-            width={32}
-            height={32}
-            draggable={false}
-          />1chooo
-        </div>
+        <Image
+          className="flex items-center gap-2 text-xl font-bold dark:invert"
+          src="/logo.png"
+          alt="Logo of Refinaid"
+          quality={100}
+          width={140}
+          height={140}
+          draggable={false}
+        />
         <span className="text-xs text-[#00000070] dark:text-[#ffffff70]">
-          Copyright © {new Date().getFullYear()} 1chooo
+          Copyright © {new Date().getFullYear()} Refinaid
         </span>
         <div className="flex items-center justify-center gap-3">
           <Link
