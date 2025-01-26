@@ -19,7 +19,7 @@
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.20",
     "daisyui": "^3.5.1",
-    "eslint": "8.46.0",
+    "eslint": "9.19.0",
     "eslint-config-next": "15.1.6",
     "framer-motion": "^12.0.5",
     "lucide": "^0.474.0",
