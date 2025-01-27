@@ -14,12 +14,12 @@ export function VisitGitHub() {
       <Tooltip>
         <TooltipTrigger asChild>
           <Button
-            className="rounded-full w-8 h-8 bg-background mr-2"
+            className="rounded-full w-10 h-10 bg-background"
             variant="outline"
             size="icon"
             onClick={() => window.open('https://github.com/1chooo/refinaid', '_blank')}
           >
-            <Github />
+            <Github className="w-[1.2rem] h-[1.2rem]" />
           </Button>
         </TooltipTrigger>
         <TooltipContent>
