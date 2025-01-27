@@ -24,8 +24,13 @@ function Header() {
         </Link>
         <nav className="flex-1 flex justify-center mt-2">
           <div className="gap-10 text-lg font-medium hidden sm:flex">
-            <a href="/#">Pricing</a>
-            <a href="https://refinaid-docs.vercel.app">Guestbook</a>
+            <Link href="/pricing">Pricing</Link>
+            <Link
+              href="https://refinaid-docs.vercel.app"
+              target='_blank'
+              rel='noreferrer noopener'
+              aria-label='GitHub'
+            >Guestbook</Link>
           </div>
         </nav>
         <div className="flex items-center space-x-4 mt-2">

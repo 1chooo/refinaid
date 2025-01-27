@@ -70,7 +70,7 @@ export function UserNav() {
         <DropdownMenuSeparator className="sm:hidden" />
         <DropdownMenuGroup className="sm:hidden">
           <DropdownMenuItem className="hover:cursor-pointer" asChild>
-            <Link href="/#" className="flex items-center">
+            <Link href="/pricing" className="flex items-center">
               <CreditCard className="w-4 h-4 mr-3 text-muted-foreground" />
               Pricing
             </Link>
