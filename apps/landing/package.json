@@ -18,7 +18,7 @@
     "@types/react-dom": "18.2.7",
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.20",
-    "daisyui": "^3.5.1",
+    "daisyui": "^4.12.23",
     "eslint": "9.19.0",
     "eslint-config-next": "15.1.6",
     "framer-motion": "^12.0.6",
