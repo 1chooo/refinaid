@@ -13,7 +13,7 @@
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.0.18",
     "@primer/octicons-react": "^19.5.0",
-    "@types/node": "22.8.6",
+    "@types/node": "22.13.1",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "@vercel/analytics": "^1.0.1",
