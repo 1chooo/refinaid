@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { PeopleIcon } from "@primer/octicons-react";
 import { RiArrowRightLine } from "react-icons/ri";
-import HomeTeamPerson from "@/src/components/home-animations/home-team-person";
-import HomeTeamTitle from "@/src/components/home-animations/home-team-title";
+import HomeTeamPerson from "@/components/home-animations/home-team-person";
+import HomeTeamTitle from "@/components/home-animations/home-team-title";
 
 const people = [
   {

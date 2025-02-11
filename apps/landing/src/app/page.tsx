@@ -1,10 +1,10 @@
-import Leaders from "@/src/components/leaders";
-import Newsletter from "@/src/components/newsletter";
-import NavBar from "@/src/components/header";
+import Leaders from "@/components/leaders";
+import Newsletter from "@/components/newsletter";
+import NavBar from "@/components/header";
 import { Metadata } from "next";
-import Sponsors from "@/src/components/sponsors";
-import HomeTitle from "@/src/components/home-animations/home-title";
-import HomeButtons from "@/src/components/home-animations/home-buttons";
+import Sponsors from "@/components/sponsors";
+import HomeTitle from "@/components/home-animations/home-title";
+import HomeButtons from "@/components/home-animations/home-buttons";
 
 export const metadata: Metadata = {
   title: "Refinaid | Home",

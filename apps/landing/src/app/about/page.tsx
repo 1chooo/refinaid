@@ -1,7 +1,7 @@
-import NavBar from "@/src/components/header";
+import NavBar from "@/components/header";
 import { Metadata } from "next";
-import Hero from "@/src/app/about/Hero";
-import LegalDoc from "@/src/app/about/LegalDoc";
+import Hero from "@/app/about/Hero";
+import LegalDoc from "@/app/about/LegalDoc";
 
 export const metadata: Metadata = {
   title: "Refinaid | About",

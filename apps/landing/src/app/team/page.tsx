@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import NavBar from "@/src/components/header";
+import NavBar from "@/components/header";
 import { Metadata } from "next";
 import { FaGithub } from "react-icons/fa";
 

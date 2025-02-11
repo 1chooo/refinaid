@@ -1,7 +1,7 @@
 import { FaDonate, FaHome } from "react-icons/fa";
 import Link from "next/link";
 import { Metadata } from "next";
-import Header from "@/src/components/header";
+import Header from "@/components/header";
 
 export const metadata: Metadata = {
   title: "Refinaid | 404",
