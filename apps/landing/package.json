@@ -12,7 +12,7 @@
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.0.18",
-    "@primer/octicons-react": "^19.5.0",
+    "@primer/octicons-react": "^19.15.0",
     "@radix-ui/react-dialog": "^1.1.5",
     "@radix-ui/react-slot": "^1.1.0",
     "@types/node": "22.13.1",

@@ -52,8 +52,8 @@ importers:
         specifier: ^2.0.18
         version: 2.2.0(react@18.2.0)
       '@primer/octicons-react':
-        specifier: ^19.5.0
-        version: 19.14.0(react@18.2.0)
+        specifier: ^19.15.0
+        version: 19.15.0(react@18.2.0)
       '@radix-ui/react-dialog':
         specifier: ^1.1.5
         version: 1.1.5(@types/react-dom@18.2.7)(@types/react@18.2.18)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -816,8 +816,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@primer/octicons-react@19.14.0':
-    resolution: {integrity: sha512-EKeavGV7s2HYac3ybb+6vfyqHGMUeG+OlZAus5ORfEjzXlorDAIjZ59fszVJj9DI6ArfFK/Cvg8V4JRfeUHjcw==}
+  '@primer/octicons-react@19.15.0':
+    resolution: {integrity: sha512-EwRnvR5bK44CoLo/Fq8cQrHzuWJf3FQb5jAoA0pacbCNOMsFiX5hXUVKSd/men1s9qEWNP2Hhthlt+bi8x4uzA==}
     engines: {node: '>=8'}
     peerDependencies:
       react: '>=16.3'
@@ -5802,7 +5802,7 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@primer/octicons-react@19.14.0(react@18.2.0)':
+  '@primer/octicons-react@19.15.0(react@18.2.0)':
     dependencies:
       react: 18.2.0
 
