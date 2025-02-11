@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { HeartIcon, MarkGithubIcon, ArrowUpRightIcon } from "@primer/octicons-react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
 
 const containerVariants = {
   initial: {

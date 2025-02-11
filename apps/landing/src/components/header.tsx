@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { FaDiscord, FaGithub, FaTwitter, FaBook } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
 import Image from "next/image";
 
 const navigations = [

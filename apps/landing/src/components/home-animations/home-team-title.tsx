@@ -1,5 +1,11 @@
 "use client";
-import { motion, useInView, useAnimation, Variants } from "framer-motion";
+
+import {
+  motion,
+  useInView,
+  useAnimation,
+  Variants,
+} from "motion/react";
 import { useEffect, useRef } from "react";
 
 export default function HomeTeamTitle({

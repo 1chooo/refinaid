@@ -21,9 +21,9 @@
     "daisyui": "^4.12.23",
     "eslint": "9.19.0",
     "eslint-config-next": "15.1.6",
-    "framer-motion": "^12.0.6",
     "lucide": "^0.474.0",
     "lucide-react": "^0.475.0",
+    "motion": "12.0.5",
     "next": "15.1.6",
     "next-sitemap": "^4.1.8",
     "postcss": "8.5.1",
@@ -35,8 +35,8 @@
     "typescript": "5.7.3"
   },
   "devDependencies": {
-    "prettier": "3.4.2",
     "eslint-config-prettier": "^10.0.1",
+    "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.8"
   }
 }
