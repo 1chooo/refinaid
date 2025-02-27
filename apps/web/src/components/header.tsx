@@ -4,8 +4,8 @@ import Link from "next/link"
 import React from "react"
 import Image from "next/image"
 import { UserNav } from "./user-nav"
-import { ModeToggle } from "@/components/theme/mode-toggle"
 import { VisitGitHub } from "@/components/visit-github"
+import { ThemeToggle } from "@/components/theme/theme-toggle"
 
 function Header() {
   return (
@@ -39,7 +39,7 @@ function Header() {
         </nav>
         <div className="flex items-center space-x-4 mt-2">
           <VisitGitHub />
-          <ModeToggle />
+          <ThemeToggle />
           <UserNav />
         </div>
       </div>
