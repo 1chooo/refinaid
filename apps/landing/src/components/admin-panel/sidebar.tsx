@@ -49,7 +49,7 @@ export function Sidebar() {
                   : "translate-x-0 opacity-100",
               )}
             >
-              Stonix
+              Refinaid
             </h1>
           </Link>
         </Button>

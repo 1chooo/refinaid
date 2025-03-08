@@ -19,12 +19,12 @@ export function BrandName() {
         <Link href="/" className="flex items-center gap-2 font-cal">
           <Image
             src="/favicon.ico"
-            alt="Stonix"
+            alt="Refinaid"
             height={30}
             width={30}
             className="rounded-full border border-border bg-transparent"
           />
-          Stonix
+          Refinaid
         </Link>
       </ContextMenuTrigger>
       <ContextMenuContent>

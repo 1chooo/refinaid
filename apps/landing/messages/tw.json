@@ -8,9 +8,9 @@
     },
     "HomePage": {
         "title": "我們是",
-        "project": "Stonix",
-        "subtitle": "視覺化股票追蹤應用程式，適用於您的所有投資組合",
-        "description": "一個開源的股票追蹤應用程式，幫助您追蹤投資組合並做出更好的投資決策。",
+        "project": "Refinaid",
+        "subtitle": "Bridging the Gap with AI For Everyone",
+        "description": "An open-source learning platform, making AI accessible to everyone, no programming skills needed. Empowering all to explore the future of AI.",
         "start": "開始免費試用"
     },
     "Pricing": {

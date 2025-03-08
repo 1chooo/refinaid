@@ -11,14 +11,14 @@ const Footer = () => {
         <Image
           className="flex items-center gap-2 text-xl font-bold"
           src="/favicon.ico"
-          alt="Logo of Stonix"
+          alt="Logo of Refinaid"
           quality={100}
           width={48}
           height={48}
           draggable={false}
         />
         <span className="text-xs text-[#00000070] dark:text-[#ffffff70]">
-          Copyright © 2024-{new Date().getFullYear()} 1chooo
+          Copyright © 2023-{new Date().getFullYear()} Refinaid
         </span>
         <div className="flex items-center justify-center gap-3">
           <Link
@@ -51,7 +51,7 @@ const Footer = () => {
             Blog
           </Link>
           <Link
-            href="https://github.com/1chooo/stonix/issues"
+            href="https://github.com/1chooo/refinaid/issues"
             className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
             target="_blank"
             rel="noreferrer noopener"
@@ -99,7 +99,7 @@ const Footer = () => {
             Terms
           </Link>
           <Link
-            href="https://github.com/1chooo/stonix/blob/main/LICENSE"
+            href="https://github.com/1chooo/refinaid/blob/main/LICENSE"
             className="text-sm text-[#00000070] dark:text-[#ffffff70] transition-all hover:text-black dark:hover:text-white"
           >
             License

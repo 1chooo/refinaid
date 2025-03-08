@@ -51,7 +51,7 @@ export default function GetStarted() {
           asChild
         >
           <Link
-            href="https://github.com/1chooo/stonix"
+            href="https://github.com/1chooo/refinaid"
             target="_blank"
             rel="noreferrer"
             aria-label="Star on GitHub"

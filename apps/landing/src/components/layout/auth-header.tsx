@@ -22,13 +22,13 @@ export default function AuthHeader() {
           <Image
             className="rounded-full"
             src="/favicon.ico"
-            alt="Logo of Stonix"
+            alt="Logo of Refinaid"
             quality={100}
             width={40}
             height={40}
             draggable={false}
           />
-          <h1 className="hidden text-2xl font-bold sm:block">Stonix</h1>
+          <h1 className="hidden text-2xl font-bold sm:block">Refinaid</h1>
         </Link>
         <div className="flex-shrink-0 flex items-center justify-end space-x-4">
           <LanguageToggle />

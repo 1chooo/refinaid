@@ -11,23 +11,23 @@ import { WebVitals } from "@/components/web-vitals";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
-  title: "Stonix | Modern Stock Tracking Application for Your Portfolio",
+  title: "Refinaid | Bridging the Gap with AI For Everyone",
   description:
-    "An open-source stock tracking application that helps you keep track of your portfolio and make better investment decisions.",
+    "An open-source learning platform, making AI accessible to everyone, no programming skills needed. Empowering all to explore the future of AI",
   openGraph: {
-    url: "https://stonix.vercel.app",
+    url: "https://refinaid.vercel.app",
     type: "website",
-    siteName: "Stonix",
-    title: "Stonix | Modern Stock Tracking Application for Your Portfolio",
+    siteName: "Refinaid",
+    title: "Refinaid | Bridging the Gap with AI For Everyone",
     description:
-      "An open-source stock tracking application that helps you keep track of your portfolio and make better investment decisions.",
+      "An open-source learning platform, making AI accessible to everyone, no programming skills needed. Empowering all to explore the future of AI",
     images: "/og.png",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stonix | Modern Stock Tracking Application for Your Portfolio",
+    title: "Refinaid | Bridging the Gap with AI For Everyone",
     description:
-      "An open-source stock tracking application that helps you keep track of your portfolio and make better investment decisions.",
+      "An open-source learning platform, making AI accessible to everyone, no programming skills needed. Empowering all to explore the future of AI",
     images: "/og.png",
   },
   icons: {

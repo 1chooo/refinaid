@@ -12,7 +12,7 @@ export default function OpenSourceBadge() {
         )}
       >
         <Link
-          href="https://github.com/1chooo/stonix/stargazers"
+          href="https://github.com/1chooo/refinaid/stargazers"
           target="_blank"
           rel="noreferrer"
           aria-label="Star on GitHub"

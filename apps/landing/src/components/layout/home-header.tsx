@@ -82,11 +82,6 @@ export default function HomeHeader() {
             <DropdownMenuContent className="w-56" align="end" forceMount>
               <DropdownMenuGroup>
                 <DropdownMenuItem className="hover:cursor-pointer" asChild>
-                  <Link href={`/${locale}/tools`} className="flex items-center">
-                    Tools
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem className="hover:cursor-pointer" asChild>
                   <Link
                     href={`/${locale}/pricing`}
                     className="flex items-center"
@@ -122,24 +117,17 @@ export default function HomeHeader() {
             <Image
               className="rounded-full"
               src="/favicon.ico"
-              alt="Logo of Stonix"
+              alt="Logo of Refinaid"
               quality={100}
               width={40}
               height={40}
               draggable={false}
             />
-            <h1 className="hidden text-2xl font-bold sm:block">Stonix</h1>
+            <h1 className="hidden text-2xl font-bold sm:block">Refinaid</h1>
           </Link>
         </div>
         <nav className="flex-grow flex justify-center">
           <div className="gap-5 text-lg font-medium hidden lg:flex">
-            <Link
-              className="px-3 py-2 rounded-xl transition-colors hover:bg-primary/10"
-              href={`/${locale}/tools`}
-              aria-label="Guestbook"
-            >
-              Tools
-            </Link>
             <Link
               href={`/${locale}/pricing`}
               className="px-3 py-2 rounded-xl transition-colors hover:bg-primary/10"
@@ -157,7 +145,7 @@ export default function HomeHeader() {
         <div className="flex-shrink-0 flex items-center justify-end space-x-2 lg:w-[300px]">
           <LanguageToggle />
           <ThemeToggle />
-          <Link href={`/${locale}/dashboard`} className={buttonVariants()}>
+          <Link href={`/${locale}/#`} className={buttonVariants()}>
             Get Started
           </Link>
         </div>
