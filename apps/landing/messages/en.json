@@ -1,0 +1,20 @@
+{
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": {
+            "en": "English",
+            "tw": "繁體中文"
+        }
+    },
+    "HomePage": {
+        "title": "We are",
+        "project": "Stonix",
+        "subtitle": "Modern Stock Visualizing Tracker for All Your Portfolio",
+        "description": "An open-source stock tracking application that helps you keep track of your portfolio and make better investment decisions.",
+        "start": "Start for Free"
+    },
+    "Pricing": {
+        "starter": "Starter"
+    },
+    "Header": {}
+}

@@ -1,0 +1,101 @@
+.preview div,
+.preview p {
+    margin: 10px 0;
+}
+
+.preview h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.preview h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+.preview h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+.preview h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+.preview h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+.preview h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+
+.preview h1,
+.preview h2,
+.preview h3,
+.preview h4,
+.preview h5,
+.preview h6 {
+    font-weight: 600;
+}
+
+.preview blockquote {
+    border-left: 4px solid var(--border);
+    background-color: var(--background);
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-style: italic;
+    color: var(--dark-gray);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.preview code {
+    background-color: var(--background);
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    font-family: "Courier Prime", monospace;
+    padding: 2px 6px;
+    font-size: 90%;
+    font-weight: 500;
+    color: var(--red);
+}
+
+.preview hr {
+    border: 0;
+    height: 1px;
+    background: var(--border);
+    margin: 20px 0;
+}
+
+.preview .highlight {
+    background-color: #ffff99;
+    padding: 0 4px;
+}
+
+.preview a {
+    color: var(--link-color);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.preview a:hover,
+.preview a:focus {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.preview a:active {
+    color: var(--link-active-color);
+}
+
+.preview img {
+    max-width: 300px;
+}
+
+.preview li {
+    margin-left: 30px;
+}

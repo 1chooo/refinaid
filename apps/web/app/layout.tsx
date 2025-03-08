@@ -15,9 +15,9 @@ const fontMono = Geist_Mono({
 
 export default function RootLayout({
   children,
-}: {
-  readonly children: React.ReactNode;
-}) {
+}: Readonly<{
+  children: React.ReactNode
+}>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
