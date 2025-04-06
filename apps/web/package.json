@@ -39,7 +39,7 @@
     "lucide-react": "^0.482.0",
     "motion": "^12.5.0",
     "next": "15.2.4",
-    "next-intl": "^3.26.3",
+    "next-intl": "^4.0.2",
     "next-themes": "^0.3.0",
     "react": "^19.0.0",
     "react-activity-calendar": "^2.7.8",
